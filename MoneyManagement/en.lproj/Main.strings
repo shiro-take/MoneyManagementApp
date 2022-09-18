@@ -1,0 +1,30 @@
+
+/* Class = "UIButton"; configuration.title = "事前設定"; ObjectID = "CcC-p6-NNf"; */
+"CcC-p6-NNf.configuration.title" = "事前設定";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "CcC-p6-NNf"; */
+"CcC-p6-NNf.normalTitle" = "Button";
+
+/* Class = "UIButton"; configuration.title = "酒管理"; ObjectID = "FyJ-kt-Ljl"; */
+"FyJ-kt-Ljl.configuration.title" = "酒管理";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "FyJ-kt-Ljl"; */
+"FyJ-kt-Ljl.normalTitle" = "Button";
+
+/* Class = "UILabel"; text = "エントランス"; ObjectID = "IMl-4e-lQQ"; */
+"IMl-4e-lQQ.text" = "エントランス";
+
+/* Class = "UIButton"; configuration.title = "エントランス"; ObjectID = "YSz-ZL-Xbl"; */
+"YSz-ZL-Xbl.configuration.title" = "エントランス";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "YSz-ZL-Xbl"; */
+"YSz-ZL-Xbl.normalTitle" = "Button";
+
+/* Class = "UILabel"; text = "酒管理"; ObjectID = "Yq1-hj-qxa"; */
+"Yq1-hj-qxa.text" = "酒管理";
+
+/* Class = "UIButton"; configuration.title = "適用"; ObjectID = "fy8-mU-M7h"; */
+"fy8-mU-M7h.configuration.title" = "適用";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "fy8-mU-M7h"; */
+"fy8-mU-M7h.normalTitle" = "Button";

@@ -13,6 +13,10 @@
 		3C4740E9289BFF550040BB65 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3C4740E7289BFF550040BB65 /* Main.storyboard */; };
 		3C4740EB289BFF5A0040BB65 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3C4740EA289BFF5A0040BB65 /* Assets.xcassets */; };
 		3C4740EE289BFF5A0040BB65 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3C4740EC289BFF5A0040BB65 /* LaunchScreen.storyboard */; };
+		3C4740F6289CB0290040BB65 /* PrepareViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C4740F5289CB0290040BB65 /* PrepareViewController.swift */; };
+		3C4740F828A27A730040BB65 /* DrinkViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C4740F728A27A730040BB65 /* DrinkViewController.swift */; };
+		3C4740FE28ADEAE50040BB65 /* EntranceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C4740FD28ADEAE50040BB65 /* EntranceViewController.swift */; };
+		3C73397028B751D100D92287 /* StockViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C73396F28B751D100D92287 /* StockViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +28,10 @@
 		3C4740EA289BFF5A0040BB65 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3C4740ED289BFF5A0040BB65 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3C4740EF289BFF5A0040BB65 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3C4740F5289CB0290040BB65 /* PrepareViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrepareViewController.swift; sourceTree = "<group>"; };
+		3C4740F728A27A730040BB65 /* DrinkViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrinkViewController.swift; sourceTree = "<group>"; };
+		3C4740FD28ADEAE50040BB65 /* EntranceViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EntranceViewController.swift; sourceTree = "<group>"; };
+		3C73396F28B751D100D92287 /* StockViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StockViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,9 +68,13 @@
 				3C4740E3289BFF550040BB65 /* SceneDelegate.swift */,
 				3C4740E5289BFF550040BB65 /* ViewController.swift */,
 				3C4740E7289BFF550040BB65 /* Main.storyboard */,
+				3C4740F728A27A730040BB65 /* DrinkViewController.swift */,
+				3C4740F5289CB0290040BB65 /* PrepareViewController.swift */,
 				3C4740EA289BFF5A0040BB65 /* Assets.xcassets */,
 				3C4740EC289BFF5A0040BB65 /* LaunchScreen.storyboard */,
 				3C4740EF289BFF5A0040BB65 /* Info.plist */,
+				3C4740FD28ADEAE50040BB65 /* EntranceViewController.swift */,
+				3C73396F28B751D100D92287 /* StockViewController.swift */,
 			);
 			path = MoneyManagement;
 			sourceTree = "<group>";
@@ -83,6 +95,8 @@
 			dependencies = (
 			);
 			name = MoneyManagement;
+			packageProductDependencies = (
+			);
 			productName = MoneyManagement;
 			productReference = 3C4740DE289BFF550040BB65 /* MoneyManagement.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +125,8 @@
 				Base,
 			);
 			mainGroup = 3C4740D5289BFF550040BB65;
+			packageReferences = (
+			);
 			productRefGroup = 3C4740DF289BFF550040BB65 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -138,9 +154,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3C4740FE28ADEAE50040BB65 /* EntranceViewController.swift in Sources */,
+				3C73397028B751D100D92287 /* StockViewController.swift in Sources */,
+				3C4740F6289CB0290040BB65 /* PrepareViewController.swift in Sources */,
 				3C4740E6289BFF550040BB65 /* ViewController.swift in Sources */,
 				3C4740E2289BFF550040BB65 /* AppDelegate.swift in Sources */,
 				3C4740E4289BFF550040BB65 /* SceneDelegate.swift in Sources */,
+				3C4740F828A27A730040BB65 /* DrinkViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
